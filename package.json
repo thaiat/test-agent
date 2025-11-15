@@ -1,0 +1,16 @@
+{
+  "name": "openai-agent-streaming",
+  "version": "1.0.0",
+  "description": "OpenAI agent with streaming JSON responses",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.20.0",
+    "cors": "^2.8.5"
+  }
+}
